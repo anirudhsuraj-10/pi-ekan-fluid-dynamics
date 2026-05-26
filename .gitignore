@@ -1,0 +1,34 @@
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+pipeline_state/
+
+# Dataset files — download EAGLE separately
+*.npz
+*.npy
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Colab / Drive
+.config/
+drive/
+content/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and outputs generated during training
+*.log
+*.json
+!results/*.json
+figures/
+outputs/

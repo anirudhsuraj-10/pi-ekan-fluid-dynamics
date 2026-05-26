@@ -1,0 +1,10 @@
+torch>=2.0.0
+numpy>=1.23.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# KAN backend — not on PyPI, installs from GitHub
+# The notebooks handle this automatically on Colab startup
+# For local install run: pip install git+https://github.com/Blealtan/efficient-kan.git
+efficient-kan @ git+https://github.com/Blealtan/efficient-kan.git
